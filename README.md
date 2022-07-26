@@ -1,6 +1,7 @@
 # Building a 3D world in react three fiber
 
 Build walkthrough in this Youtube video:
+
 [![Video preview](https://img.youtube.com/vi/FGG0EeMNUl0/0.jpg)](https://www.youtube.com/watch?v=FGG0EeMNUl0)
 
 Learn how to add 3D elements to any React website. I would recommend knowing some React basics since i will focus on the 3D aspects rather than React itself. In this video you will learn how to use "React three fiber", a React renderer built to render Three.js content. In the tutorial I will download 2 different 3D models. The first model is the earth and a second model is an airplane. The models are in the GLTF format and i will show how to convert them directly into React components using a npm utility package called "gltfjsx". I will add some animations to the earth like click to zoom and rotating to showcase geographic locations at any lon/lat coordinate pair. I will use the browser geolocation API to place the webpage user on the correct spot on earth. Finally I will connect to an API giving realtime locations of surrounding airplanes and place them correctly on the surface of the earth, sorting them by closest to the user of the webpage.
